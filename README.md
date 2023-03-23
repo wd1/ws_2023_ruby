@@ -10,7 +10,7 @@
 Przykładowe wywołanie:
 
 ```
-CountElements.perform([0,4,2,1,0,2,5])
+CountElements.new([0,4,2,1,0,2,5]).perform
 => { 0 => 2, 4 => 1, 2 => 2, 1 => 1, 5 => 1 }
 ```
 
@@ -29,9 +29,9 @@ CountElements.perform([0,4,2,1,0,2,5])
 Przykładowe wywołania
 
 ```
-ValidatePassword.perform("Password1!")
+ValidatePassword.new("Password1!").perform
 => true
-ValidatePassword.perform("password1!")
+ValidatePassword.new("password1!").perform
 => false
 ```
 
