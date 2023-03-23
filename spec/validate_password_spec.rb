@@ -22,6 +22,3 @@ describe ValidatePassword do
     specify { expect(subject.perform('Password1!Password1!Password1!')).to eq(false) }
   end
 end
-
-
-
