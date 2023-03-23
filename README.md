@@ -4,15 +4,14 @@
 
 ### Założenia
 
-* Stwórz metode do sprawdzenia ile razy dany element (słowo, liczba) powtarza się w tabeli. 
-* Zwracamy hash z elementem oraz ilość powtórzeń
-* Należy zabezpieczyć się na możliwość, że próg lub ilość punktów będzie podana jako string, nie integer.
+* Stwórz metode do sprawdzenia ile razy dany element (słowo, liczba) powtarza się w tabeli.
+* Zwracamy hash z elementem oraz ilość powtórzeń.
 
 Przykładowe wywołanie:
 
 ```
 CountElements.perform([0,4,2,1,0,2,5])
-=> {0=>2, 4=>1, 2=>2, 1=>1, 5=>1}
+=> { 0 => 2, 4 => 1, 2 => 2, 1 => 1, 5 => 1 }
 ```
 
 ## 2. Walidacja hasła
