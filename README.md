@@ -4,7 +4,7 @@
 
 ### Założenia
 
-* Stwórz metode do sprawdzenia ile razy dany element (słowo, liczba) powtarza się w tabeli.
+* Stwórz metodę do sprawdzenia ile razy dany element (słowo, liczba) powtarza się w tabeli.
 * Zwracamy hash z elementem oraz ilość powtórzeń.
 
 Przykładowe wywołanie:
